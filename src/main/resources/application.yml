@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  resources:
+    static-locations: "classpath:/static/"
+                                     
+okta:
+  client:
+    org-url: 
+  oauth2:
+    issuer: 
+    clientId: 
+    clientSecret: 
+    rolesClaim: groups
